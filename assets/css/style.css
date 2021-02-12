@@ -27,10 +27,20 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.text-white {
+  color: #ffffff !important;  
+}
+
 .text-orange {
-  color: #ffffff !important;
+  color: #fc643f;
+}
+
+.bg-orange {
   background-color: #fc643f;
-  border-radius: 50px;
+}
+
+.rounded-5 {
+  border-radius: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -717,7 +727,7 @@ section {
 .content .content-overlay {
   background: rgba(0,0,0,0.7);
   position: absolute;
-  height: 99%;
+  height: 100%;
   width: 100%;
   left: 0;
   top: 0;
