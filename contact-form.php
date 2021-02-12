@@ -1,24 +1,29 @@
 <?php
 
-$name = $_POST['name'];
-$visitor_email = $_POST['email'];
-$message = $_POST['message'];
-$subject = $_POST['subject'];
+if (isset ($_POST['submit'])) {
 
-$email_from = 'lengrattanak@live.com';
+    $name = $_POST["name"];
+    $mailFrom = $_POST["email"];
+    $message = $_POST["message"];
+    $subject = $_POST["subject"];
+    
+    // $email_from = "lengrattanak@live.com";
+    
+    // $email_subject = "New Form Submission";
+    
+    // $email_body = "User Name: $name.\n".
+    //                 "User Email: $visitor_email.\n".
+    //                     "Email Subject: $subject. \n".
+    //                         "User Message: $message.\n";
+    
+    $mailTo = "rleng@live.com";
+    $headers = "From: ".$mailFrom;
+    $txt = "You have receive an email from ".$name.".\n\n".$message;
+    
+    mail($mailTo, $subject, $txt, $headers);
+    
+    header("Location: index.php?mailsend");
+}
 
-// $email_subject = 'New Form Submission';
-
-$email_body = 'User Name: $name.\n'.
-                'User Email: $visitor_email.\n'.
-                    'Email Subject: $subject. \n'.
-                        'User Message: $message.\n';
-
-$to = 'rleng@live.com';
-$headers = 'From: $email_from \r\n';
-$headers . = 'Reply-To: $visitor_email \r\n';
-mail($to,$subject, $email_body, $headers);
-
-header('Location: index.html');
 
 ?>
