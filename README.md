@@ -1,5 +1,4 @@
 # Rattanak-Portfolio
-# workout-tracker
 
 ## Table of Contents
 <p align="center">
@@ -38,7 +37,7 @@ Indext page: </br>
 ## Repository and Live Site
 Repository: https://github.com/rattanakleng/workout-tracker </br>
 
-Live site: https://boiling-ravine-51697.herokuapp.com/exercise?id=6029a507da8ff90015891911
+Live site: https://rattanakleng.github.io/Portfolio/
 
 ## Contributing
 Rattanak Leng </br>
