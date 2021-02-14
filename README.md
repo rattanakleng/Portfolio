@@ -17,6 +17,7 @@
 ## Table of Contents
 - [Description](#description)
 - [Repository and Live Site](#repository-and-live-site)
+- [Questions](#question)
 - [Contributing](#contributing)
 
 ## Description
@@ -36,7 +37,7 @@ GitHub: https://github.com/rattanakleng </br>
 Linkedin: https://www.linkedin.com/in/rattanak-leng-523660140/
 
 ## Questions
-If you have any question, feel free to contact me at [rleng@live.com](mailto:rleng@live.com).
+If you have any question, feel free to contact me, [Email](mailto:rleng@live.com).
 
 ## License
 This code is licensed under [MIT](https://opensource.org/licenses/MIT).
