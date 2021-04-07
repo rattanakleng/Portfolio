@@ -8,6 +8,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -62,6 +64,15 @@ h1, h2, h3, h4, h5, h6 {
     scroll-behavior: auto;
   }
 }
+
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 1.2rem;  
+  }   
+  
+}
+
 
 
 /*--------------------------------------------------------------
@@ -735,8 +746,6 @@ section {
   right: 15px;
 } 
 
-
-
 /*Custom */
 
 .content {
@@ -798,9 +807,6 @@ section {
   margin-bottom: 0.5em;
   text-transform: uppercase;
 }
-
-
-
 
 /*--------------------------------------------------------------
 # Contact
