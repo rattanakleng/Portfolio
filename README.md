@@ -29,7 +29,7 @@ Indext page: </br>
 ## Repository and Live Site
 Repository: https://github.com/rattanakleng/Portfolio </br>
 
-Live site: https://rattanakleng.github.io/Portfolio/
+Live site: https://rattanakleng.site/
 
 ## Contributing
 Rattanak Leng </br>
