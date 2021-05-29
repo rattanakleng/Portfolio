@@ -53,6 +53,9 @@ h1, h2, h3, h4, h5, h6 {
 .border-orange {
   border: solid 1px #fc643f;
 }
+.border-grey {
+  border: solid 1px #cccccc;
+}
 
 .rounded-top-5 {
   border-top-right-radius: 15px;
